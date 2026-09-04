@@ -7,7 +7,7 @@ about:
   head: 393f057
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:20:00Z
+  collectedAt: 2026-09-04T21:13:40Z
 timeline:
   created: 2011-09-28
   lastCommit: 2025-09-18
@@ -81,5 +81,33 @@ total:
   openIssue: 16
   commit: 274
 ---
+path: /home/runner/.x-repo/github.com/stefanha/git-publish
+collectedAt: 2026-09-04T21:13:41Z
+loc:
+  Python:
+    code: 903
+    comments: 99
+    blanks: 153
+    files: 5
+  Bash:
+    code: 153
+    comments: 33
+    blanks: 49
+    files: 6
+  Sh:
+    code: 109
+    comments: 40
+    blanks: 32
+    files: 3
+  Markdown:
+    code: 0
+    comments: 68
+    blanks: 41
+    files: 2
+total:
+  code: 1173
+  comments: 240
+  blanks: 275
+  files: 16
 ---
 
