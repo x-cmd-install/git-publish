@@ -1,3 +1,25 @@
+- repo: nix_stable_24_05
+  srcname: git-publish
+  visiblename: git-publish
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Prepare and store patch revisions as git tags
+  maintainers:
+    - git@sphalerite.org
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: git-publish
+  visiblename: git-publish
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Prepare and store patch revisions as git tags
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
 - repo: alt_p11
   srcname: git-publish
   binnames:
@@ -341,28 +363,6 @@
     - MIT
   categories:
     - dev-vcs
-- repo: nix_stable_24_05
-  srcname: git-publish
-  visiblename: git-publish
-  version: 1.8.2
-  origversion: null
-  status: newest
-  summary: Prepare and store patch revisions as git tags
-  maintainers:
-    - git@sphalerite.org
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: git-publish
-  visiblename: git-publish
-  version: 1.8.2
-  origversion: null
-  status: newest
-  summary: Prepare and store patch revisions as git tags
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
 - repo: nix_stable_25_05
   srcname: git-publish
   visiblename: git-publish
@@ -617,6 +617,19 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: git-publish
+  binnames:
+    - git-publish
+  visiblename: git-publish
+  version: 1.8.1
+  origversion: 1.8.1-1build1
+  status: outdated
+  maintainers:
+    - f4bug@amsat.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: git-publish
   binnames:
     - git-publish
