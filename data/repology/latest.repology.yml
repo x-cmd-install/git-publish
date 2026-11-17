@@ -1,25 +1,16 @@
-- repo: nix_stable_24_05
+- repo: deepin_25
+  subrepo: main
   srcname: git-publish
+  binnames:
+    - git-publish
   visiblename: git-publish
-  version: 1.8.2
-  origversion: null
-  status: newest
-  summary: Prepare and store patch revisions as git tags
+  version: 1.8.1
+  origversion: 1.8.1-1
+  status: outdated
   maintainers:
-    - git@sphalerite.org
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: git-publish
-  visiblename: git-publish
-  version: 1.8.2
-  origversion: null
-  status: newest
-  summary: Prepare and store patch revisions as git tags
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
+    - f4bug@amsat.org
+  categories:
+    - misc
 - repo: alt_p11
   srcname: git-publish
   binnames:
@@ -138,19 +129,6 @@
   status: outdated
   maintainers:
     - f4bug@amsat.org
-- repo: deepin_25
-  subrepo: main
-  srcname: git-publish
-  binnames:
-    - git-publish
-  visiblename: git-publish
-  version: 1.8.1
-  origversion: 1.8.1-1
-  status: outdated
-  maintainers:
-    - f4bug@amsat.org
-  categories:
-    - misc
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: git-publish
@@ -200,20 +178,6 @@
   categories:
     - Unspecified
 - repo: fedora_39
-  subrepo: updates
-  srcname: git-publish
-  binnames:
-    - git-publish
-  visiblename: git-publish
-  version: 1.8.2
-  origversion: 1.8.2-1.fc39
-  status: newest
-  summary: Prepare and store patch revisions as git tags
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: release
   srcname: git-publish
   binnames:
@@ -222,6 +186,20 @@
   version: 1.8.1
   origversion: 1.8.1-4.fc39
   status: legacy
+  summary: Prepare and store patch revisions as git tags
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: git-publish
+  binnames:
+    - git-publish
+  visiblename: git-publish
+  version: 1.8.2
+  origversion: 1.8.2-1.fc39
+  status: newest
   summary: Prepare and store patch revisions as git tags
   licenses:
     - MIT
@@ -297,6 +275,20 @@
     - MIT
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: git-publish
+  binnames:
+    - git-publish
+  visiblename: git-publish
+  version: 1.8.2
+  origversion: 1.8.2-6.fc45
+  status: newest
+  summary: Prepare and store patch revisions as git tags
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: git-publish
@@ -363,6 +355,28 @@
     - MIT
   categories:
     - dev-vcs
+- repo: nix_stable_24_05
+  srcname: git-publish
+  visiblename: git-publish
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Prepare and store patch revisions as git tags
+  maintainers:
+    - git@sphalerite.org
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: git-publish
+  visiblename: git-publish
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Prepare and store patch revisions as git tags
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
 - repo: nix_stable_25_05
   srcname: git-publish
   visiblename: git-publish
@@ -421,7 +435,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: git-publish
   binnames:
     - git-publish
@@ -434,7 +448,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: git-publish
   binnames:
     - git-publish
