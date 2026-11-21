@@ -1,4 +1,30 @@
-- repo: deepin_25
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: git-publish
+  binnames:
+    - git-publish
+  visiblename: git-publish
+  version: 1.8.1
+  origversion: 1.8.1-1
+  status: outdated
+  maintainers:
+    - f4bug@amsat.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: git-publish
+  binnames:
+    - git-publish
+  visiblename: git-publish
+  version: 1.8.1
+  origversion: 1.8.1-1
+  status: outdated
+  maintainers:
+    - f4bug@amsat.org
+  categories:
+    - misc
+- repo: raspbian_testing
   subrepo: main
   srcname: git-publish
   binnames:
@@ -118,17 +144,19 @@
     - f4bug@amsat.org
   categories:
     - misc
-- repo: deepin_unstable
+- repo: deepin_25
   subrepo: main
   srcname: git-publish
   binnames:
     - git-publish
   visiblename: git-publish
-  version: 1.4.3
-  origversion: 1.4.3-1
+  version: 1.8.1
+  origversion: 1.8.1-1
   status: outdated
   maintainers:
     - f4bug@amsat.org
+  categories:
+    - misc
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: git-publish
@@ -499,45 +527,6 @@
     - f4bug@amsat.org
   categories:
     - vcs
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: git-publish
-  binnames:
-    - git-publish
-  visiblename: git-publish
-  version: 1.8.1
-  origversion: 1.8.1-1
-  status: outdated
-  maintainers:
-    - f4bug@amsat.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: git-publish
-  binnames:
-    - git-publish
-  visiblename: git-publish
-  version: 1.8.1
-  origversion: 1.8.1-1
-  status: outdated
-  maintainers:
-    - f4bug@amsat.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: git-publish
-  binnames:
-    - git-publish
-  visiblename: git-publish
-  version: 1.8.1
-  origversion: 1.8.1-1
-  status: outdated
-  maintainers:
-    - f4bug@amsat.org
-  categories:
-    - misc
 - repo: ubuntu_18_04
   subrepo: bionic/universe
   srcname: git-publish
